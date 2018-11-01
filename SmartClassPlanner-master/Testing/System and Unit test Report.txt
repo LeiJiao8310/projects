@@ -1,0 +1,54 @@
+System and Unit test Report
+Product Name: Smart Class Planner
+Team Name: SJCZZ
+Date: July 24
+
+Sprint1
+User story: As a user, I want a website which is clear and convenient to see all courses’ information.
+User story: As a user, I want a website which can display my class schedules for more than one year.
+Developer story: As a developer, I will use Adobe XD to design a user-friendly interface.
+Developer story: As a developer, I will structure my website with html.
+Developer story: As a developer, I will use Css to beautify my website.
+Developer story: I will use Python or manually collect courses information from ucsc system website.
+
+Scenario:
+1. open the browser window and type
+   a. domain into address window: localhost/SmartClassPlanner/
+   b. Click init! to see the initial classes and empty tables for three years
+
+Sprint2
+User story: As a user, I want a website which can display courses in their provided quarters.
+User story: As a user, I want a website which could label the courses with course types.
+Developer story: As a developer, I will design 4 list to represent courses which are provided fall, winter, spring and summer.
+Developer story: As a developer, I will tag these courses so that they can be displayed on specific section of the website.
+
+Scenario: 
+2. After the user clicked the init! button
+   a. All courses in the year will be displayed under each quarter specificly.
+   b. and the labels will be displayed after the courses' name.
+
+Sprint3
+User story: As a user, I want a website which could display my selected courses in a table, which is similar to the major curriculum chart.
+
+Developer story: As a developer, I will use html and css to design a table.
+Developer story: As a developer, I will use javaScript to create a clickable function that the clicked course will automatically disappear from the list and appear on the specific section of the table.
+Developer story: As a developer, I will create a button to allow user to see the curriculum chart as reference.
+
+Scenario:
+3. There will be 5 slots for each quarter.
+   a. The user can add their desiered course to the table by clicking on the courses on list
+   b. then there will be a window pops up that shows the detailed information of the course and ask the user if they want to add to their schedule. 
+   c. If they click on "OK", the user will be asked for which year they want to add. The range is from 1 to 3 and numbers greater than 3 or lesser than 1 will cuase the adding fail. Then, the selected course will show up on the specific colomn with selected year. 
+   d. If they click on "Cancel", the user will return to the interface
+
+
+Unit tests:
+We test our JS functions in browser that press f12 and type js code into it to test it.
+
+Chin-shu Shao: I tested html and css code by blocking other dividers and seeing the visual website in localhost to see if my codes were working.
+
+Yalin Zhang: Since I design the UI of the website by drawing it on a paper, I quickly realized that is not an easy thing to display my idea completely. I changed my direction and redesign the UI by what the Bootstrap has.	It is also a challenge to learn how to use Bootstrap, I read a lot of tutorials and fond some similar models and I combined them together. Group members also helped me did some bug fixes.
+
+
+
+
